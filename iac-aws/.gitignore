@@ -1,0 +1,24 @@
+# Terraform
+.terraform/
+*.tfstate
+*.tfstate.*
+*.tfplan
+crash.log
+crash.*.log
+
+# Terraform lock file
+# Mantenha o .terraform.lock.hcl versionado
+.terraform.lock.hcl
+
+# Environment / secrets
+.env
+*.tfvars
+*.tfvars.json
+
+# IDE
+.vscode/
+.idea/
+
+# OS
+.DS_Store
+Thumbs.db
